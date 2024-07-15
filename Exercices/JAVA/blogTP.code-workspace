@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../blogTP"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Portfolio"
+		},
+		{
+			"path": "../../FeeFinder"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "src"
+	}
+}

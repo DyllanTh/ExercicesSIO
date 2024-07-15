@@ -1,0 +1,120 @@
+/* Réinitialisation des marges et des rembourrages */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fond blanc pour tout le document */
+body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Centrer le contenu du formulaire */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% de la hauteur de la fenêtre */
+}
+
+/* Styles pour le formulaire */
+form {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour les étiquettes de formulaire */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Styles pour les champs de formulaire */
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Bouton de connexion bleu */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Styles pour les messages d'erreur */
+.error {
+    color: #ff0000;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Réinitialisation des marges et des rembourrages */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fond blanc pour tout le document */
+body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styles pour le conteneur principal */
+.container-content {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Styles pour le texte de bienvenue */
+.container-content h2 {
+    color: #007bff;
+}
+
+/* Styles pour le contenu confidentiel */
+.container-content p {
+    margin-top: 10px;
+}
+
+/* Styles pour les liens de déconnexion et de connexion */
+.container-content a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.container-content a:hover {
+    background-color: #0056b3;
+}
